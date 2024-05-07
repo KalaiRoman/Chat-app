@@ -1,0 +1,11 @@
+@use "../abstract" as *;
+
+.commonwidth {
+    width: 100%;
+    height: 100%;
+    .insidecommonwidth {
+        width: 90%;
+        margin: 0 auto;
+        height: 100%;
+    }
+}

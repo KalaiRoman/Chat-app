@@ -1,0 +1,27 @@
+@use "variables" as *;
+
+$primary: "primary";
+$secondary: "secondary";
+$background: "background";
+$background-alt: "background-alt";
+$input-focused: "input-focused";
+$inverter: "inverter";
+$text: "white-text";
+$themes: (
+  light: (
+    primary: $primary--light,
+    secondary: $secondary--light,
+    background: $background--light,
+    background-alt: $background-alt--light,
+    inverter: $inverter--light,
+    white-text: $light_text_black
+  ),
+  dark: (
+    primary: $primary--dark,
+    secondary: $secondary--dark,
+    background: $background--dark,
+    background-alt: $background-alt--dark,
+    inverter: $inverter--dark,
+    white-text: $dark_text_black
+  )
+);
